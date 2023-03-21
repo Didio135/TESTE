@@ -6,6 +6,7 @@
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    justify-content: center;
     }
     
     .div1 { grid-area: 1 / 2 / 2 / 6; }
@@ -31,18 +32,27 @@
     }
     .div2 {
         background-color: rgba(255, 255, 255, 0.358);
-        margin: 0px -25px 0px -25px ;
+        margin: 0px -25px 0px -25px;
         text-align: center;
         border: 2px solid #000000;
         border-radius: 10px;
         
+        align-items: center;
+        
+        
+        
+        
     }
     .div3 {
         background-color: azure;
-        margin: 0px 0px 0px 0px ;
+        margin: 0px 4px 0px -4px ;
         border: 3px solid #00000038;
         border-radius: 50px;
         text-align: center;
+        max-width: 0px;
+        min-width: 0px;
+        
+
         
         
       
@@ -51,9 +61,16 @@
         background-color: cornsilk;
         margin: 0px 0px 0px 0px ;
         border: 3px solid #00000060;
+        border-radius: 50px;
+        text-align: center;
+        
+        
+
     }
     .div5 {
         background-color: beige;
         margin: 50px -60px 10px -60px;
         
     }
+
+  
