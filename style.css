@@ -21,6 +21,8 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        max-width: max-content;
+        min-width: min-content;
         
     }
 
@@ -29,6 +31,7 @@
        text-align: center;
        margin: 10px -60px 10px -60px;
        border-radius: 13px;
+       border: 2px solid #000000;
     }
     .div2 {
         background-color: rgba(255, 255, 255, 0.358);
@@ -57,19 +60,25 @@
       
     }
     .div4 {
-        background-color: cornsilk;
+        background-color:azure;
         margin: 0px 0px 0px 0px ;
-        border: 3px solid #00000060;
+        border: 3px solid #00000038;
         border-radius: 50px;
         text-align: center;
+        justify-content: center;
         
         
 
     }
-    .div5 {
-        background-color: beige;
+    /*.div5 {
+        background-color: azure;
         margin: 50px -60px 10px -60px;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+        height: 70px;
         
-    }
+        
+    }*/
 
   
