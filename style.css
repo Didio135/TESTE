@@ -25,14 +25,14 @@
     }
 
     .div1 {
-       background-color: rgba(255, 255, 255, 0.478);
+       background-color: rgba(255, 255, 255, 0.17);
        text-align: center;
        margin: 10px -60px 10px -60px;
        border-radius: 13px;
        border: 2px solid #000000;
     }
     .div2 {
-        background-color: rgba(255, 255, 255, 0.358);
+        background-color: rgba(255, 255, 255, 0.235);
         margin: 0px -25px 0px -25px;
         text-align: center;
         border: 2px solid #000000;
@@ -45,8 +45,8 @@
         
     }
     .div3 {
-        background-color: azure;
-        margin: 80px -20px 23px -20px ;
+        background-color: rgba(240, 255, 255, 0.539);
+        margin: 102px -20px 10px -20px ;
         border: 3px solid #00000038; 
         text-align: center;
         max-height: 500px;
@@ -55,17 +55,10 @@
         min-width: 0px;
         border-radius: 57px;
         background: #ffffffd0;
-        box-shadow:  25px 25px 58px #c4c4c484,
-             -25px -25px 58px #ffffff;
-             padding-top: 0px;
+        box-shadow:  25px 25px 58px #c4c4c45b,
+             -25px -25px 58px #ffffff95;
+             padding-top: 14px;
 
-        
-        
-        
-
-        
-        
-      
     }
     
         
@@ -74,13 +67,37 @@
     
     .div5 {
         background-color: azure;
-        margin: 50px -60px 10px -60px;
+        margin: 100px -60px 0px -60px;
         border: 2px solid #000000;
         border-radius: 10px;
         text-align: center;
-        height: 70px;
-        
-        
+        height: 55px;
+    
     }
+    button {
+        
+            min-width: 130px;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background: #343a40;
+            box-shadow: 0 5px #212529;
+          }
+          button:hover {
+            box-shadow: 0 3px #212529;
+            top: 1px;
+          }
+          button:active {
+            box-shadow: 0 0 #212529;
+            top: 5px;
+          }
 
   
